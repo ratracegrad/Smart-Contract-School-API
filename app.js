@@ -5,7 +5,7 @@ import cors from 'cors';
 
 dotenv.config();
 
-const port = 5000 || process.env.PORT;
+const port = 80 || process.env.PORT;
 // const connection = await mysql.createConnection(process.env.DATABASE_URL);
 const connection = await mysql.createConnection('mysql://fct4fyqu7ijc:pscale_pw_ACxK0qBfmq1Duu0f-kV--59B_LvqtZ8zMDE5xS5_c4Y@w41dbsulvmyf.us-east-1.psdb.cloud/solidity-challenge?ssl={"rejectUnauthorized":true}');
 const app = express();
