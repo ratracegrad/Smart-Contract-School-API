@@ -10,7 +10,7 @@ const connection = await mysql.createConnection(process.env.DATABASE_URL);
 const app = express();
 
 app.use(cors({
-	origin: 'https://www.smartcontracts.school/'
+	origin: '*'
 }));
 
 
