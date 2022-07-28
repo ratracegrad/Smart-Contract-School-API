@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import mysql from 'mysql2/promise';
-const cors = require('cors');
+import cors from 'cors';
 
 dotenv.config();
 
